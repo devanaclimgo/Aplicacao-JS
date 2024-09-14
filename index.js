@@ -1,16 +1,9 @@
-let meta = {
-  value: "ler um livro por mês",
-  checked: false,
+const start = () => {
+  let count = 0
+  while(count <= 10) {
+    console.log("entrou")
+    count = count + 1
+  }
 }
 
-let metas = [
-  meta,
-  {
-    value: "estudar programação todo dia",
-    checked: true
-  }
-]
-
-console.log(metas[1].value)
-
-//(meta.vale) = (meta[0].value)
+start()
